@@ -16,11 +16,10 @@ BuildRequires:  perl(XML::Twig)
 BuildRequires:  perl(XSLoader)
 # test
 BuildRequires:  perl(Carp)
-BuildRequires:  perl(Test::More)
 BuildRequires:  perl(Test::Pod) >= 1.00
 BuildRequires:  perl(Test::Pod::Coverage) >= 1.00
-BuildRequires:  perl(Test::CPAN::Changes)
 Requires:       perl(XSLoader)
+BuildRequires:  perl-generators
 
 %{?perl_default_filter}
 
